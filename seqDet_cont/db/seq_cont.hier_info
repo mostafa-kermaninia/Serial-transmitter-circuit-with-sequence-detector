@@ -1,0 +1,26 @@
+|seq_cont
+serIn => Selector0.IN2
+serIn => ns.B.DATAB
+serIn => ns.C.DATAB
+serIn => ns.D.DATAB
+serIn => ns.E.DATAB
+serIn => ns.F.DATAB
+serIn => Selector0.IN3
+serIn => Selector4.IN2
+serIn => Selector1.IN1
+serIn => Selector2.IN1
+co1 => Selector5.IN4
+co1 => ns.ld_state.DATAB
+co1 => Selector2.IN2
+co2 => Selector0.IN4
+co2 => Selector3.IN2
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+ld << ld.DB_MAX_OUTPUT_PORT_TYPE
+init << init.DB_MAX_OUTPUT_PORT_TYPE
+shen << Selector4.DB_MAX_OUTPUT_PORT_TYPE
+cen1 << cen1.DB_MAX_OUTPUT_PORT_TYPE
+cen2 << <VCC>
+outValid << Selector5.DB_MAX_OUTPUT_PORT_TYPE
+
+

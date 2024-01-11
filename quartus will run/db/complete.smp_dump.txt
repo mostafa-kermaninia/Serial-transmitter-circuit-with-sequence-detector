@@ -1,0 +1,13 @@
+
+State Machine - |complete|seq_cont:inst3|ps
+Name ps.tr_state ps.ld_state ps.G ps.F ps.E ps.D ps.C ps.B ps.A ps.I 
+ps.I 0 0 0 0 0 0 0 0 0 0 
+ps.A 0 0 0 0 0 0 0 0 1 1 
+ps.B 0 0 0 0 0 0 0 1 0 1 
+ps.C 0 0 0 0 0 0 1 0 0 1 
+ps.D 0 0 0 0 0 1 0 0 0 1 
+ps.E 0 0 0 0 1 0 0 0 0 1 
+ps.F 0 0 0 1 0 0 0 0 0 1 
+ps.G 0 0 1 0 0 0 0 0 0 1 
+ps.ld_state 0 1 0 0 0 0 0 0 0 1 
+ps.tr_state 1 0 0 0 0 0 0 0 0 1 

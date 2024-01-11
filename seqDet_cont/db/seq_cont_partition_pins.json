@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ld",
+					"strict" : false
+				},
+				{
+					"name" : "init",
+					"strict" : false
+				},
+				{
+					"name" : "shen",
+					"strict" : false
+				},
+				{
+					"name" : "cen1",
+					"strict" : false
+				},
+				{
+					"name" : "outValid",
+					"strict" : false
+				},
+				{
+					"name" : "serIn",
+					"strict" : false
+				},
+				{
+					"name" : "co1",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "co2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
